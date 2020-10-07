@@ -114,14 +114,14 @@ main section:nth-child(2) {
     #gameboard {
         display: flex;
         flex-wrap: wrap;
-        width: 300px;
+        width: 360px;
     }
     .square {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px;
-        width: 100px;
+        height: 120px;
+        width: 120px;
         font-size: 45px;
         font-weight: 600;
         font-family: 'Crafty Girls', cursive;
