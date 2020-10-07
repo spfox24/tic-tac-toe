@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Helvetica';
+    font-family: 'Josefin Sans', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,13 +18,21 @@ header, footer {
     align-items: center;
     flex-direction: row;
     color: navajowhite;
-    height: 60px;
+    height: 80px;
     width: 100%;
 }
 
 header {
     justify-content: space-evenly;
     box-shadow: 1px 3px 3px 1px lightgray;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
 }
 
 footer {
@@ -61,8 +69,28 @@ main section:nth-child(2) {
     width: 200px;
     font-size: 65px;
     font-weight: 600;
+    font-family: 'Crafty Girls', cursive;;
+}
+
+#reset-btn {
+    margin-top: 50px;
+    border: 3px solid midnightblue;
+    border-radius: 5px;
+    height: 35px;
+    background-color: white;
+    color: midnightblue;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    width: 24%;
+    box-shadow: 2px 2px 2px 1px lightgray;
 }
 
 .square:hover {
     background-color: navajowhite;
+}
+
+#reset-btn:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
 }

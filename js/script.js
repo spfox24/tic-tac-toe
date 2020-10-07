@@ -76,14 +76,10 @@ function handleMove(evt){
     const position = evt.target.dataset.index;
 
     if(winner || gameboard[position]) return;
-
     gameboard[position] = turn;
-
     // check to see if we have a winner
     winner = checkWinner();
-
     turn *= -1;
-
     render();
 };
 
