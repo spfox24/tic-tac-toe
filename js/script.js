@@ -92,8 +92,8 @@ function render() {
     if(!winner) {
         $messageEl.text(`It's Player ${LOOKUP[turn]}'s Turn`);
     } else if (winner === 'T') {
-        $messageEl.text('Tie Game');
+        $messageEl.text('Tie Game 🥱');
     } else {
-        $messageEl.text(`Congratulations ${LOOKUP[winner]} Wins!`);
+        $messageEl.text(`Congratulations ${LOOKUP[winner]} Wins! 🏆`);
     }
 }

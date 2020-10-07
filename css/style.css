@@ -76,6 +76,7 @@ main section:nth-child(2) {
     margin-top: 50px;
     border: 3px solid midnightblue;
     border-radius: 5px;
+    outline: none;
     height: 35px;
     background-color: white;
     color: midnightblue;
